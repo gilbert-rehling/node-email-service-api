@@ -72,6 +72,9 @@ My tests confirmed that the failover to Mailgun worked as expected, and that Mai
 There is a screenshot included that shows the application in action:
 ####/node-email-service-ss1.jpg
 
+Live test case (no guarantees that this will be up):  
+    http://nes.gilbert-rehling.com
+
 ## Caveat
 I did not bother with authentication for the MongoDB access, mostly due to the fact that I only just set it up for this project and I was building on my own private network - follow suit at your own risk!!
 
