@@ -42,7 +42,8 @@ As there is no 'public' content the structure was created manually to represent 
 ## ToDo:
 The JWT implementation is only a placeholder. I wont be implementing JWT in the front-end section.  
 Some config values should be stored as ENV values instead of within a local config.  
-The validation on the POST data is only rudimentary, and would require further checks to ensure valid content is being provided.
+The validation on the POST data is only rudimentary, and would require further checks to ensure valid content is being provided.  
+I get a security warning (Known moderate severity security vulnerability detected in hoek < 4.2.1 defined in package-lock.json) from Github related to a secondary dependency created by one of the services I have used. I'm not bothering with it as this is only a test project. I assume the vendor with eventually get their act together and sort it out.
  
 ## React Front End 
 This is a simple front end, with a single form.
@@ -76,7 +77,8 @@ Live test case (no guarantees that this will be up):
     http://nes.gilbert-rehling.com
 
 ## Caveat
-I did not bother with authentication for the MongoDB access, mostly due to the fact that I only just set it up for this project and I was building on my own private network - follow suit at your own risk!!
+I did not bother with authentication for the MongoDB access, mostly due to the fact that I only just set it up for this project and I was building on my own private network - follow suit at your own risk!!  
+<strong>Please take note of the security issue reported for HOEK versions < 4.2.1 noted earlier.</strong>
 
 ## Other projects
 Golang modular API:  
