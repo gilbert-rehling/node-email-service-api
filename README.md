@@ -5,7 +5,9 @@ This project contains two sections:
 
 ## Warning
 This proect is quite dated and has not seen any update for 2 years.
+
 The versions of react-scripts@3.4.0 is seriously outdated and blocks several critical security updates, as does the vesion of webpack@4.41.6
+
 Use this as-is at ypour own risk!!
 
 ## Requirements: ##  
